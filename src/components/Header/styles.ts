@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 
@@ -29,7 +30,8 @@ export const HeaderContainer = styled.header`
         -webkit-text-fill-color: transparent;
         background-clip: unset;
         -webkit-background-clip: text;
-        /* font-style: italic; */
+        font-style: italic;
+        padding-right: 0.5rem;
       }
     }
   }
@@ -39,6 +41,11 @@ export const HeaderContainer = styled.header`
     gap: 0.5rem;
     width: 50%;
     justify-content: space-evenly;
+
+    @media (max-width: 720px) {
+      justify-content: center;
+      width: 100%;
+    }
 
     a {
       width: 6rem;

@@ -43,7 +43,7 @@ export function Header() {
           <span>
             <FileCode size={36} weight="fill" />
           </span>
-          <h1 title="CodeAim">CodAim</h1>
+          <h1 title="Codein">Codein</h1>
           <SketchLogo size={22} />
         </a>
       </div>
