@@ -218,7 +218,9 @@ body,input,button,a{
   inset: 0;
   background: rgba(0, 0, 0, 0.75);
 `,ag=Le(lg)`
-  min-width: 32rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   border-radius: 6px;
   padding: 2.5rem 3rem;
   background: ${e=>e.theme["gray-800"]};
@@ -245,13 +247,15 @@ body,input,button,a{
   width: 100%;
 `,fg=Le.div`
   section {
-    width: 35rem;
-    height: 18rem;
-
     img {
-      width: 35rem;
-      height: 18rem;
+      max-width: 35rem;
+      max-height: 18rem;
       border-radius: 0.5rem;
+
+      @media (max-width: 720px) {
+        max-width: 20rem;
+        max-height: 9rem;
+      }
     }
   }
 
