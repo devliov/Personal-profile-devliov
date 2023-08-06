@@ -10,7 +10,9 @@ export const Overlay = styled(Dialog.Overlay)`
 `;
 
 export const Content = styled(Dialog.Content)`
-  min-width: 32rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   border-radius: 6px;
   padding: 2.5rem 3rem;
   background: ${(props) => props.theme["gray-800"]};
@@ -43,13 +45,15 @@ export const BoxButton = styled.div`
 
 export const BoxProject = styled.div`
   section {
-    width: 35rem;
-    height: 18rem;
-
     img {
-      width: 35rem;
-      height: 18rem;
+      max-width: 35rem;
+      max-height: 18rem;
       border-radius: 0.5rem;
+
+      @media (max-width: 720px) {
+        max-width: 20rem;
+        max-height: 9rem;
+      }
     }
   }
 
