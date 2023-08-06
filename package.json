@@ -8,7 +8,7 @@
     "lint":"eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview":"vite preview",
     "predeploy":"npm run build",
-    "depoly":"gh-pages -d dist"
+    "deploy":"gh-pages -d dist"
 },
   "dependencies":{
     "@radix-ui/react-dialog":"^1.0.4",
