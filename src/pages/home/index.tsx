@@ -3,11 +3,13 @@ import MyPhoto from "../../assets/perfil.png";
 import { GithubLogo, LinkedinLogo } from "phosphor-react";
 import { Projects } from "../projects";
 import { Skills } from "../skills";
+import { Header } from "../../components/Header";
 
 export function Home() {
   return (
     <div>
-      <ContainerMain id="profile">
+      <Header />
+      <ContainerMain>
         <div>
           <h2>Eli Oliver</h2>
           <h3>Front-End Web Developer </h3>
