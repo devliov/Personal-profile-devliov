@@ -1,11 +1,12 @@
 import { styled } from "styled-components";
 
 export const SkillContainer = styled.main`
-  margin-top: 5rem;
+  padding-top: 1rem;
   display: flex;
   gap: 1rem;
   flex-direction: column;
   width: 100%;
+  height: 100vh;
 `;
 
 export const SkillBox = styled.div`
@@ -13,7 +14,7 @@ export const SkillBox = styled.div`
   gap: 1rem;
   justify-content: space-between;
   margin: auto;
-  width: 50rem;
+  width: 100%;
   min-height: 2rem;
   border: 1px solid transparent;
   border-radius: 0.5rem;

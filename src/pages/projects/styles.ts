@@ -3,18 +3,19 @@ import { styled } from "styled-components";
 export const ProjectContainer = styled.main`
   background-color: ${(props) => props.theme["gray-900"]};
   width: 100%;
-
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  margin-top: 5rem;
+  padding-top: 2rem;
+  height: 100vh;
 `;
 
 export const ProjectItem = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: auto;
-  width: 50rem;
+  width: 100%;
   min-height: 2rem;
   border: 1px solid transparent;
   border-radius: 0.5rem;
@@ -41,11 +42,9 @@ export const ProjectItem = styled.div`
   }
 
   button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: 2.55rem;
+    flex-shrink: 0;
+    max-height: 3rem;
+    padding: 0.5rem;
     font-weight: bold;
     color: ${(props) => props.theme["gray-300"]};
     border: none;

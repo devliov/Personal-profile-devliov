@@ -24,5 +24,12 @@ body,input,button,a{
     font-size:1rem;
 }
 
+.mainContainer{
+    margin: auto;
+    max-width:1440px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
 
 `;
