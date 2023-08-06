@@ -15,7 +15,7 @@ export const SkillBox = styled.div`
   justify-content: space-between;
   margin: auto;
   width: 100%;
-  min-height: 2rem;
+  height: max-content;
   border: 1px solid transparent;
   border-radius: 0.5rem;
   padding: 0.5rem;
