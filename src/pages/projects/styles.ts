@@ -7,7 +7,8 @@ export const ProjectContainer = styled.main`
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
-  height: 100vh;
+  height: max-content;
+  gap: 1rem;
 `;
 
 export const ProjectItem = styled.div`
@@ -41,19 +42,25 @@ export const ProjectItem = styled.div`
     color: ${(props) => props.theme["gray-400"]};
   }
 
-  button {
-    flex-shrink: 0;
-    max-height: 3rem;
-    padding: 0.5rem;
-    font-weight: bold;
-    color: ${(props) => props.theme["gray-300"]};
-    border: none;
-    border-radius: 0.5rem;
-    background-color: ${(props) => props.theme["green-700"]};
+  section {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    gap: 0.5rem;
+    a {
+      display: flex;
+      height: 2rem;
+      width: 8rem;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: bold;
+      align-items: center;
+      border-radius: 6px;
+      background: ${(props) => props.theme["green-700"]};
 
-    &:hover {
-      background-color: ${(props) => props.theme["green-500"]};
-      cursor: pointer;
+      &:hover {
+        background: ${(props) => props.theme["green-500"]};
+      }
     }
   }
 `;
