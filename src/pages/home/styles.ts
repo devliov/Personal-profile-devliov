@@ -39,6 +39,15 @@ export const ContainerMain = styled.main`
 
     h2 {
       font-size: 2.5rem;
+      width: max-content;
+      background: linear-gradient(
+        60deg,
+        ${(props) => props.theme["green-500"]} 0%,
+        ${(props) => props.theme["white"]} 80%
+      );
+      -webkit-text-fill-color: transparent;
+      background-clip: unset;
+      -webkit-background-clip: text;
     }
 
     h3 {

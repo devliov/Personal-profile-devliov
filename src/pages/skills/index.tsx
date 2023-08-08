@@ -62,6 +62,7 @@ const skillsItem: SkillsItem[] = [
 export function Skills() {
   return (
     <SkillContainer id="skills">
+      <h2>Skills</h2>
       {skillsItem.map((skill) => (
         <SkillBox key={skill.id}>
           <div>

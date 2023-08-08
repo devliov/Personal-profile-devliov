@@ -7,8 +7,22 @@ export const ProjectContainer = styled.main`
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
-  height: max-content;
   gap: 1rem;
+  margin-bottom: 10rem;
+
+  h2 {
+    font-family: "Baloo 2";
+    font-size: 2rem;
+    width: max-content;
+    background: linear-gradient(
+      60deg,
+      ${(props) => props.theme["green-500"]} 0%,
+      ${(props) => props.theme["white"]} 80%
+    );
+    -webkit-text-fill-color: transparent;
+    background-clip: unset;
+    -webkit-background-clip: text;
+  }
 `;
 
 export const ProjectItem = styled.div`
