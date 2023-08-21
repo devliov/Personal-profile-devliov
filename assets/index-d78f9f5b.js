@@ -377,6 +377,12 @@ body,input,button,a{
         border-radius: 15px;
       }
 
+      @media (max-width: 720px) {
+        &:hover {
+          border-radius: 0;
+        }
+      }
+
       &.active {
         span {
           color: ${e=>e.theme["gray-100"]};
