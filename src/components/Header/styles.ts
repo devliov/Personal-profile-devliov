@@ -67,6 +67,12 @@ export const HeaderContainer = styled.header`
         border-radius: 15px;
       }
 
+      @media (max-width: 720px) {
+        &:hover {
+          border-radius: 0;
+        }
+      }
+
       &.active {
         span {
           color: ${(props) => props.theme["gray-100"]};
