@@ -19,42 +19,42 @@ const skillsItem: SkillsItem[] = [
     id: 1,
     title: "Javascript",
     description:
-      "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+      "JavaScript, frequentemente abreviado como JS, é uma linguagem de programação que é uma das tecnologias principais da World Wide Web, junto com HTML e CSS.",
     icon: iconJs,
   },
   {
     id: 2,
     title: "Typescript",
     description:
-      "TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript.",
+      "TypeScript é uma linguagem de programação gratuita e de código aberto desenvolvida pela Microsoft que adiciona tipagem estática com anotações de tipo opcionais ao JavaScript.",
     icon: iconTs,
   },
   {
     id: 3,
     title: "React js",
     description:
-      "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components.",
+      "React (também conhecido como React.js ou ReactJS) é uma biblioteca de JavaScript de código aberto e gratuita para construir interfaces de usuário baseadas em componentes.",
     icon: iconReact,
   },
   {
     id: 4,
     title: "Next js",
     description:
-      "  Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation.",
+      "Next.js é um framework de desenvolvimento web de código aberto criado pela empresa privada Vercel que fornece aplicativos web baseados em React com renderização do lado do servidor e geração de sites estáticos.",
     icon: iconNext,
   },
   {
     id: 5,
     title: "HTML",
     description:
-      "      The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. ",
+      "HTML (HyperText Markup Language) é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador da web.",
     icon: iconHtml,
   },
   {
     id: 6,
     title: "CSS",
     description:
-      " Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup  language such as HTML or XML.",
+      "CSS (Cascading Style Sheets) é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML.",
     icon: iconCss,
   },
 ];
@@ -62,7 +62,7 @@ const skillsItem: SkillsItem[] = [
 export function Skills() {
   return (
     <SkillContainer id="skills">
-      <h2>Skills</h2>
+      <h2>Habilidades</h2>
       {skillsItem.map((skill) => (
         <SkillBox key={skill.id}>
           <div>

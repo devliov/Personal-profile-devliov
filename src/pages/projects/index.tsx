@@ -11,28 +11,35 @@ type ProjectsItem = {
   ghPages?: string;
 };
 
-// eslint-disable-next-line react-refresh/only-export-components
-export const projectItem: ProjectsItem[] = [
+const projectItem: ProjectsItem[] = [
   {
     id: 1,
-    title: "Personal Profile",
-    description: "My own personal website with projects and skills.",
+    title: "Landingpage ",
+    description: "Landingpage profissiona",
+    image: Todo,
+    gitHub: "https://github.com/devliov/LandingPage-deploy",
+    ghPages: "https://devliov.github.io/LandingPage-deploy/",
+  },
+  {
+    id: 2,
+    title: "Perfil Pessoal",
+    description: "Site pessoal com projetos e habilidades.",
     image: Todo,
     gitHub: "https://github.com/devliov/personal-profile-devliov",
     ghPages: "https://devliov.github.io/personal-profile-devliov/",
   },
   {
-    id: 2,
-    title: "To-Do List",
-    description: "Your to-do tasks in an organized list.",
+    id: 3,
+    title: "Lista de Tarefas",
+    description: "Suas tarefas em uma lista organizada.",
     image: Todo,
     gitHub: "https://github.com/devliov/todo-list-react-vite-deploy",
     ghPages: "https://devliov.github.io/todo-list-react-vite-deploy/",
   },
   {
-    id: 3,
-    title: "Social Media",
-    description: "Basic draft of a social media feed",
+    id: 4,
+    title: "Mídia Social",
+    description: "Esboço básico de um feed de mídia social.",
     image: Todo,
     gitHub: "https://github.com/devliov/Feed-Post-Comment-react",
     ghPages: "https://devliov.github.io/Feed-Post-Comment-react/",
@@ -42,19 +49,19 @@ export const projectItem: ProjectsItem[] = [
 export function Projects() {
   return (
     <ProjectContainer id="projects">
-      <h2>Projects</h2>
+      <h2>Projetos</h2>
       {projectItem.map((item) => (
         <ProjectItem key={item.id}>
           <div>
-            <h3> {item.title}</h3>
-            <p>{item.description} </p>
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
           </div>
           <section>
-            <p>look web site :</p>
+            <p>Visualize o site:</p>
             <a href={item.ghPages} target="_blank">
               gh-pages
             </a>
-            <p>look repository :</p>
+            <p>Visualize o repositório:</p>
             <a href={item.gitHub} target="_blank">
               github
             </a>

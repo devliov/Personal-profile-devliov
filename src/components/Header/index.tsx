@@ -11,7 +11,7 @@ type MenuHeader = {
 const menu: MenuHeader[] = [
   {
     id: 1,
-    name: "Profile",
+    name: "Perfil",
     link: "#profile",
     icon() {
       return <UserCircle size={24} />;
@@ -19,7 +19,7 @@ const menu: MenuHeader[] = [
   },
   {
     id: 2,
-    name: "Projects",
+    name: "Projetos",
     link: "#projects",
     icon() {
       return <Code size={24} />;
@@ -27,7 +27,7 @@ const menu: MenuHeader[] = [
   },
   {
     id: 3,
-    name: "Skills",
+    name: "Habilidades",
     link: "#skills",
     icon() {
       return <Wrench size={24} />;
