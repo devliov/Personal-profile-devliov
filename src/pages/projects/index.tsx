@@ -17,8 +17,8 @@ const projectItem: ProjectsItem[] = [
     title: "Landingpage ",
     description: "Landingpage profissional",
     image: Todo,
-    gitHub: "https://github.com/devliov/LandingPage-deploy",
-    ghPages: "https://devliov.github.io/LandingPage-deploy/",
+    gitHub: "https://github.com/devliov/landingpage-deploy",
+    ghPages: "https://devliov.github.io/landingpage-deploy/",
   },
   {
     id: 2,
