@@ -14,14 +14,22 @@ type ProjectsItem = {
 const projectItem: ProjectsItem[] = [
   {
     id: 1,
-    title: "Landingpage ",
-    description: "Landingpage profissional",
+    title: "SonoLiffe",
+    description: "Página de vendas de colchão",
     image: Todo,
-    gitHub: "https://github.com/devliov/landingpage-deploy",
-    ghPages: "https://devliov.github.io/landingpage-deploy/",
+    gitHub: "https://github.com/devliov/sonoliffe",
+    ghPages: "https://devliov.github.io/sonoliffe/",
   },
   {
     id: 2,
+    title: "Barbearia do Irmão",
+    description: "Página da barbearia completa",
+    image: Todo,
+    gitHub: "https://github.com/devliov/barbearia-do-irmao",
+    ghPages: "https://devliov.github.io/barbearia-do-irmao/",
+  },
+  {
+    id: 3,
     title: "Perfil Pessoal",
     description: "Site pessoal com projetos e habilidades.",
     image: Todo,
@@ -29,7 +37,7 @@ const projectItem: ProjectsItem[] = [
     ghPages: "https://devliov.github.io/personal-profile-devliov/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Lista de Tarefas",
     description: "Suas tarefas em uma lista organizada.",
     image: Todo,
@@ -37,7 +45,15 @@ const projectItem: ProjectsItem[] = [
     ghPages: "https://devliov.github.io/todo-list-react-vite-deploy/",
   },
   {
-    id: 4,
+    id: 5,
+    title: "Landingpage ",
+    description: "Landingpage profissional",
+    image: Todo,
+    gitHub: "https://github.com/devliov/landingpage-deploy",
+    ghPages: "https://devliov.github.io/landingpage-deploy/",
+  },
+  {
+    id: 6,
     title: "Mídia Social",
     description: "Esboço básico de um feed de mídia social.",
     image: Todo,
