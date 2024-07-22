@@ -1,4 +1,4 @@
-import { SkillBox, SkillContainer } from "./styles";
+import { FooterConteiner, SkillBox, SkillContainer } from "./styles";
 
 import iconReact from "../../assets/icons8-react.svg";
 import iconHtml from "../../assets/icons8-html5.svg";
@@ -72,6 +72,9 @@ export function Skills() {
           <img src={skill.icon} alt="" />
         </SkillBox>
       ))}
+      <FooterConteiner>
+        ESO Tech corporation. All rights reserved © 2024.
+      </FooterConteiner>
     </SkillContainer>
   );
 }

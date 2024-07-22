@@ -58,3 +58,14 @@ export const SkillBox = styled.div`
     height: 3rem;
   }
 `;
+
+export const FooterConteiner = styled.footer`
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  @media (max-width: 720px) {
+    font-size: 8px;
+  }
+`;
